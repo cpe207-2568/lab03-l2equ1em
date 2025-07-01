@@ -4,6 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
   </head>
-  <body></body>
+  <body>
+      <div class="background-cover"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <p class="navbar-brand" style="color: gold;">My Portfolio</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+          <ul class="navbar-nav w-100 d-flex justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exp.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="d-flex flex-column flex-sm-row align-items-center justify-content-center mx-auto gap-4 py-5" style="max-width: 800px;">
+  <img src="images/image.jpg" class="rounded-circle" width="180" style="object-fit: cover; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+  
+  <div class="text-center text-sm-start">
+    <div class="display-5 mb-4">Lawit Pinkaew</div>
+    <div class="text-muted">
+      "Hi! my name is Lawit. I am still a second year student at CPE, Chiang Mai University. I love music and like playing games in my free time."
+    </div>
+  </div>
+</div>
+
+<p class="text-center fs-3">Skills</p>
+<div style="max-width: 800px;" class="mx-auto px-2">
+
+  <div class="d-flex border mb-3 shadow rounded-all">
+    <div>
+      <img src="images/skill1.jpg" width="180px" height="180px" style="object-fit: cover;" class="d-none d-sm-block">
+    </div>
+    <div class="p-4">
+      <p class="fw-semibold fs-5">Music Composing</p>
+      <span class="text-muted">
+        Music is a universal language that does not need to be translated, but can be felt by the heart.
+        I have made music in Bandlab and Garage Band, but never published it.
+        I just did it out of personal interest.
+      </span>
+    </div>
+  </div>
+
+  <div class="d-flex border mb-3 shadow rounded-all">
+    <div class="p-4">
+      <p class="fw-semibold fs-5">Fitness & Nutrition</p>
+      <span class="text-muted">
+        Exercise is the proof of how deeply we choose to love ourselves. I have knowledge in exercise, especially weight training and controlling food intake without affecting the mental state.
+      </span>
+    </div>
+    <div>
+      <img src="images/skill2.jpg" width="180px" height="180px" style="object-fit: cover;" class="d-none d-sm-block">
+    </div>
+  </div>
+
+<div class="d-flex border mb-3 shadow rounded-all">
+    <div>
+      <img src="images/gaming.jpg" width="180px" height="180px" style="object-fit: cover;" class="d-none d-sm-block">
+    </div>
+    <div class="p-4">
+      <p class="fw-semibold fs-5">Gaming</p>
+      <span class="text-muted">
+        Esports isn't just about winning—it's about discipline, passion, and the relentless pursuit of mastery. 
+I am a person who learns and is skilled quickly.
+      </span>
+    </div>
+  </div>
+
+  <div class="d-flex border mb-3 shadow rounded-all">
+    <div class="p-4">
+      <p class="fw-semibold fs-5">WHY IS IT SPICY!! </p>
+      <span class="text-muted">
+        Spicy food is full of flavor with a heat that awakens the senses and makes eating more fun. I love eating spicy food. I can eat it so spicy that I have to beg for my life.
+      </span>
+    </div>
+    <div>
+      <img src="images/skill4.jpg" width="180px" height="180px" style="object-fit: cover;" class="d-none d-sm-block">
+    </div>
+  </div>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
